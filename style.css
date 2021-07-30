@@ -1,0 +1,125 @@
+#homepageBanner {
+	width: 100%;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+} 
+
+#bannerDiv {
+	display: flex;
+}
+
+#logo {
+	position: absolute;
+	width: 10%;
+	top: 3%;
+}
+
+#maintitle {
+	position: absolute;
+	top: 50%;
+	left: 35%;
+	color: white;
+	font-size: 260%;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#cardsDiv p {
+	color: black;
+	font-size: 150%;
+	padding: 2%;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.cardImgs {
+	height: 330px;
+	width: 330px;
+	border-radius: 20px;
+	box-shadow: 5px 10px 5px #888888;
+}
+
+.cardImgs:hover {
+	opacity: 0.9;
+	border: 2px solid gray;
+}
+
+#cardsDiv {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.smallHeadings {
+	padding-left: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+li {
+	padding: 1%;
+}
+#listsDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	background-color: black;
+	color: white;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
+
+.lists {
+	justify-content: space-between;
+	padding: 2% 10% ;
+}
+
+#test {
+	display: flex;
+}
+
+@media screen and (max-width: 900px) {
+	.smallHeadings, p {
+		text-align: center;
+	}
+
+	#maintitle {
+		top: 30%;
+		left: 20%;
+		text-shadow: 2px 2px 2px darkgray;
+	}
+}
+
+
+.colPics {
+	width: 100%;
+	border-radius: 20px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.row {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+button > a {
+	color: white;
+}
+
+button {
+	background-color: blue;
+}
